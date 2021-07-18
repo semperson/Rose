@@ -390,7 +390,7 @@
 			<key>icon</key>
 			<string>Lisa.png</string>
 			<key>url</key>
-			<string>https://repo.litten.love/depictions/lsa/</string>
+			<string>https://repo.litten.love/depictions/Lisa/</string>
 		</dict>
 		<dict>
 			<key>cellClass</key>
@@ -402,7 +402,7 @@
 			<key>icon</key>
 			<string>Dress.png</string>
 			<key>url</key>
-			<string>https://repo.litten.love/depictions/drs/</string>
+			<string>https://repo.litten.love/depictions/Dress/</string>
 		</dict>
 
 		<dict>
