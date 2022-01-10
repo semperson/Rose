@@ -1,9 +1,8 @@
 LIBRARY_NAME = libRose
-$(LIBRARY_NAME)_OBJC_FILES = $(wildcard *.m)
-$(LIBRARY_NAME)_FRAMEWORKS = UIKit
-$(LIBRARY_NAME)_CFLAGS = -I./ -Ipublic -Ioverlayheaders -I. -fobjc-arc
+$(LIBRARY_NAME)_OBJC_FILES = libRose.m
+$(LIBRARY_NAME)_FRAMEWORKS = UIKit AudioToolbox
+$(LIBRARY_NAME)_CFLAGS = -I./ -Ipublic -Ioverlayheaders -I. -fobjc-arc -DTHEOS_LEAN_AND_MEAN
 $(LIBRARY_NAME)_USE_MODULES = 0
-ADDITIONAL_CFLAGS += -DTHEOS_LEAN_AND_MEAN
 
 include $(THEOS)/makefiles/common.mk
 include $(THEOS_MAKE_PATH)/library.mk
