@@ -2,13 +2,13 @@
 The most advanced and feature rich system wide haptic feedback tweak
 
 ## Installation
-1. Add this repository to your Package Manager: `TBD`
+1. Add this repository to your package manager: `TBD`
 2. Install Rose
 
 ## Compiling
   - [Theos](https://theos.dev/) is required to compile the project
   - `cd` into libRose and compile it before attempting to compile Rose itself
-  - You may want to edit the root `Makefile` to use your Theos SDK and custom toolchain
+  - You may want to edit the root `Makefile` to use your Theos SDK and toolchain
 
 ## License
 If you take code from this repository please link it, or my [Twitter](https://twitter.com/schneelittchen) to your project<br>
