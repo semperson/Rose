@@ -4,7 +4,7 @@ export SYSROOT = $(THEOS)/sdks/iOS/14/iPhoneOS14.4.sdk
 export PREFIX = $(THEOS)/toolchain/Xcode.xctoolchain/usr/bin/
 
 INSTALL_TARGET_PROCESSES = SpringBoard
-SUBPROJECTS = libRose Tweak Prefs Applications
+SUBPROJECTS = libRose Tweak Prefs
 
 include $(THEOS)/makefiles/common.mk
 include $(THEOS_MAKE_PATH)/aggregate.mk

@@ -276,16 +276,6 @@
  			<key>cell</key>
  			<string>PSLinkCell</string>
  			<key>label</key>
- 			<string>Applications</string>
- 			<key>detail</key>
- 			<string>RSEApplicationsSubPrefsListController</string>
- 			<key>RSESub</key>
- 			<string>applicationsSub</string>
- 		</dict>
-		<dict>
- 			<key>cell</key>
- 			<string>PSLinkCell</string>
- 			<key>label</key>
  			<string>Exceptions</string>
  			<key>detail</key>
  			<string>RSEExceptionsSubPrefsListController</string>
