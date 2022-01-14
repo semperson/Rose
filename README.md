@@ -1,4 +1,4 @@
-# Rose
+# Rose 🌹
 The most advanced and feature rich system wide haptic feedback tweak
 
 ## Installation
